@@ -13,8 +13,8 @@ let updatePassword = (newPassword) => {
       password: newPassword,
     };
   }
-  const { username, password } = newAccount;
-  console.log(`Username : ${username}, password terbaru adalah ${password}`);
+  const { username, password, id } = newAccount;
+  console.log(`Password updated : id ${id}, username : ${username}, Password  ${password}`);
 };
 
 updatePassword('nopalkkkl');
